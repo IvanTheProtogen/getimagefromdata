@@ -12,12 +12,14 @@ newimagefromdata(
     {
       1,
       1,
-      Color3.new(1, 0, 0)
+      Color3.new(1, 0, 0),
+      0
     },
     {
       2,
       1,
-      Color3.new(0, 0, 1)
+      Color3.new(0, 0, 1),
+      0
     }
   }
 )
