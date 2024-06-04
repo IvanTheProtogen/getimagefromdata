@@ -13,6 +13,7 @@ local function newimagefromdata(parent,sizeX,sizeY,position,imagedata)
 		pxl.Position = UDim2.new(0,((v[1]-1)*sizeX),0,((v[2]-1)*sizeY))
 		pxl.Size = UDim2.new(0,sizeX,0,sizeY)
 		pxl.BackgroundColor3 = v[3]
+		pxl.BackgroundTransparency = v[4]
 	end
 	
 	return img
