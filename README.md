@@ -2,18 +2,12 @@
 
 ```lua
 newimagefromdata(
-  Instance.new(
-    "ScreenGui",
+  Instance.new("ScreenGui",
     game:GetService("Players"):GetPlayers()[1].PlayerGui
   ),
   10,
   10,
-  UDim2.new(
-    0.5,
-    -10,
-    0.5,
-    -5
-  ),
+  UDim2.new(0.5, -10, 0.5, -5),
   {
     {
       1,
@@ -23,11 +17,7 @@ newimagefromdata(
     {
       2,
       1,
-      Color3.new(
-        0,
-        0,
-        1
-      )
+      Color3.new(0, 0, 1)
     }
   }
 )
