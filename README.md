@@ -23,8 +23,10 @@ newimagefromdata(
 )
 ```
 
-## Shortcut for exploits:
+## Shortcuts for exploits:
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IvanTheProtogen/getimagefromdata/main/main.lua"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IvanTheProtogen/getimagefromdata/main/main.lua"))(); -- newimagefromdata loader
+
+newimagefromdata(unpack(game:GetService("HttpService"):JSONDecode(game:HttpGet("URL here")))); -- image's pixeldata loader
 ```
