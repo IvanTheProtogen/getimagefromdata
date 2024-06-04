@@ -22,3 +22,9 @@ newimagefromdata(
   }
 )
 ```
+
+## Shortcut for exploits:
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IvanTheProtogen/getimagefromdata/main/main.lua"))();
+```
